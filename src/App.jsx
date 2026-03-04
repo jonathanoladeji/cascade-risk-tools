@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 // ─── CONFIGURATION ────────────────────────────────────────────────────────────
 // Add your Anthropic API key here OR pass it via environment variable
 // In Vercel: Settings → Environment Variables → VITE_ANTHROPIC_KEY
-const API_KEY = import.meta.env.VITE_ANTHROPIC_KEY || "";
+const API_KEY = import.meta.env.VITE_CASCADE_APP || "";
 
 // ─── DATA ─────────────────────────────────────────────────────────────────────
 const RISK_CATEGORIES = [
